@@ -81,12 +81,12 @@ RSA-PPP-Toolkit/
 | `RSA-PPP-2025-05` | Diseño de PCBs en Autodesk EAGLE para Acelerógrafo ESP32 (Modular y SMD) | Daniel Loja | Culminado |
 | `RSA-PPP-2025-06` | Dashboard en Tiempo Real y Telemetría IoT para Estaciones RSA (Stack TIG-MQTT) | Mauro Bravo | Culminado |
 | `RSA-PPP-2026-07` | Migración de Proyectos EDA de Altium a KiCad 10 y Estandarización PCBA (JLCPCB) | Joel Suárez | Culminado |
-| `RSA-PPP-2026-08` | Migración, Auditoría y Optimización de PCB de Acelerógrafo ESP32 en KiCad 10 | Joel Suárez | En Ejecución |
+| `RSA-PPP-2026-08` | Migración, Auditoría y Optimización de PCB de Acelerógrafo ESP32 en KiCad 10 | Joel Suárez | Culminado |
 | `RSA-PPP-2026-09` | Ensamblaje, Programación, Daisy Chain y PoC MicroSD para Red SHM V1.4 | David Timbi | Culminado |
 | `RSA-PPP-2026-10` | Sensor Ultrasónico de Nivel de Alta Precisión (dsPIC a ESP32 con MicroPython) | Franklin Andrade | En Ejecución |
 | `RSA-PPP-2026-11` | Validación Integral de Nodos Sensores para Red SHM (Doble Búfer, ADXL355 y Co-localización) | Geovanny Cullquicondo | En Ejecución |
-| `RSA-PPP-2026-12` | Adquisición Electromecánica Multiplexada de 24 Canales para Galgas (Presa Chanlud) | Christopher Carchipulla | En Ejecución |
-| `RSA-PPP-2026-13` | Sistema DAQ de 16 Canales para Sensores Geotécnicos de Presa (NI USB-6210 y Python) | Walter Calderón | En Ejecución |
+| `RSA-PPP-2026-12` | Sistema DAQ de 16 Canales para Sensores Geotécnicos de Presa (NI USB-6210 y Python) | Christopher Carchipulla | En Ejecución |
+| `RSA-PPP-2026-13` | Adquisición Electromecánica Multiplexada de 24 Canales para Galgas (Presa Chanlud) | Walter Calderón | En Ejecución |
 
 ---
 

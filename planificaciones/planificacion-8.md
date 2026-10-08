@@ -3,7 +3,7 @@ titulo: "Plan de Trabajo de Prácticas Preprofesionales: Migración, Auditoría 
 proyecto: "Migración de EAGLE a KiCad 10 y Optimización de Hardware para Acelerógrafo Basado en ESP32"
 codigo_proyecto: "RSA-PPP-2026-08"
 area_tematica: "Diseño de Hardware Electrónico, CAD/EDA Libre (KiCad 10), Compatibilidad Firmware-Hardware y Manufactura PCBA"
-estado: "En Ejecución"
+estado: "Culminado"
 version: "1.0"
 fecha_creacion: "2026-07-15"
 fecha_actualizacion: "2026-09-25"
@@ -12,7 +12,7 @@ pasante:
   nombre: "Edgar Joel Suárez Jaigua"
   cedula: "N/D"
   correo: "edgar.suarez@ucuenca.edu.ec"
-  carrera: "Ingeniería en Telecomunicaciones / Electrónica"
+  carrera: "Ingeniería en Telecomunicaciones"
   institucion: "Universidad de Cuenca"
 
 tutoria:
@@ -24,7 +24,7 @@ cronograma:
   dedicacion_semanal_horas: 16
   duracion_semanas: 6
   fecha_inicio: "2026-07-15"
-  fecha_fin_estimada: "2026-08-31"
+  fecha_fin_estimada: "2026-09-30"
   modalidad: "Presencial"
 
 tecnologias:
