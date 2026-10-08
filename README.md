@@ -107,6 +107,8 @@ Al iniciar o preparar una nueva práctica preprofesional:
   - `firmware/` (o `software/`): Código fuente con drivers desacoplados.
   - `data/`: Registros binarios, muestras y evidencias.
   - `python/` (o herramientas PC): Scripts de soporte y análisis.
+* Usar SKILL de despliegue de repositorio:
+  - Ejemplo: "Despliega el repositorio para planificacion-10.md"
 
 ### 3. Empalme Técnico entre Pasantes (Proyectos Continuos)
 * Si el proyecto es la continuación de una pasantía previa, crear en el repositorio del estudiante el archivo `docs/referencia_proyecto_anterior.md` utilizando `plantillas/plantilla_documento_puente.md`.
