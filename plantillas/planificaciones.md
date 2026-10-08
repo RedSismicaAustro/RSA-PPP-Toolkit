@@ -12,11 +12,11 @@ version: "1.0"
 fecha_creacion: "YYYY-MM-DD"
 fecha_actualizacion: "YYYY-MM-DD"
 
-pasante:
-  nombre: "[Nombres y Apellidos del Pasante]"
+practicante:
+  nombre: "[Nombres y Apellidos del Practicante]"
   cedula: "[Número de Cédula o Identificación]"
   correo: "[correo.estudiante@ucuenca.edu.ec]"
-  carrera: "[Ingeniería en Telecomunicaciones / Computación / Electrónica]"
+  carrera: "[Ingeniería en Telecomunicaciones]"
   institucion: "Universidad de Cuenca"
 
 tutoria:
@@ -42,6 +42,17 @@ tecnologias:
 repositorio:
   url: "https://github.com/RSA-PPP/[nombre-repositorio]"
   rama_base: "main" # En proyectos individuales de RSA-PPP la rama de trabajo directo es siempre main
+
+# Topics oficiales del repositorio (About en GitHub)
+# Seguir el vocabulario controlado de docs/taxonomia_topics.md (kebab-case, minúsculas, sin espacios)
+topics:
+  - rsa-ppp # Obligatorio
+  - ucuenca # Obligatorio
+  - "[dominio: ej. shm / seismic-monitoring / dam-monitoring / iot / daq]"
+  - "[hardware: ej. dspic33 / esp32 / ni-usb-6210 / raspberry-pi]"
+  - "[sensor-periferico: ej. adxl355 / microsd / ultrasonic-sensor / strain-gauges]"
+  - "[protocolo-arquitectura: ej. rs485 / daisy-chain / spi / mqtt / ping-pong-buffer]"
+  - "[software-entorno: ej. python / c / micropython / mikroc / kicad / grafana]"
 ---
 
 ---

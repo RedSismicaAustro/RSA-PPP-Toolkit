@@ -37,8 +37,18 @@ tecnologias:
   - "Instrumental de Laboratorio y Prototipado: Osciloscopio Digital, Multímetro, Placa perforada de prototipado y Maqueta de filtraciones RSA"
 
 repositorio:
-  url: "No disponible / Repositorio institucional en proceso de creación"
+  url: "https://github.com/RSA-PPP/ppp-2026-10-sensor-ultrasonico-esp32"
   rama_base: "main"
+
+topics:
+  - rsa-ppp
+  - ucuenca
+  - dam-monitoring
+  - ultrasonic-sensor
+  - esp32
+  - micropython
+  - dsp
+  - python
 ---
 
 ---

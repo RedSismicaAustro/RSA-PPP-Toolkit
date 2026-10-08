@@ -36,8 +36,20 @@ tecnologias:
   - "Almacenamiento y Buses de Expansión: Mapeo PPS para SPI1, controladores sdcard.c/spiSD.c y tarjetas MicroSD Kingston (16/32 GB SDHC)"
 
 repositorio:
-  url: "https://github.com/RedSismicaAustro/RSA-Intern-Ensamblaje_SHM"
-  rama_base: "dev-pasantias"
+  url: "https://github.com/RSA-PPP/ppp-2026-09-shm-ensamblaje-validacion"
+  rama_base: "main"
+
+topics:
+  - rsa-ppp
+  - ucuenca
+  - shm
+  - dspic33
+  - rs485
+  - daisy-chain
+  - time-synchronization
+  - microsd
+  - mikroc
+  - c
 ---
 
 ---

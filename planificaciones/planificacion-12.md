@@ -8,10 +8,10 @@ version: "1.0"
 fecha_creacion: "2026-09-28"
 fecha_actualizacion: "2026-09-28"
 
-pasante:
-  nombre: "Christopher Carchipulla"
+practicante:
+  nombre: "Walter Calderón"
   cedula: "N/D"
-  correo: "christopher.carchipulla@ucuenca.edu.ec"
+  correo: "walter.calderon@ucuenca.edu.ec"
   carrera: "Ingeniería en Telecomunicaciones"
   institucion: "Universidad de Cuenca"
 
@@ -38,8 +38,20 @@ tecnologias:
   - "Instrumental de Laboratorio: Osciloscopio digital de fósforo, analizador lógico de 8 canales, multímetro de banco de alta precisión y simulador/resistencias patrón de galgas (350 Ω / 120 Ω)"
 
 repositorio:
-  url: "No disponible / Repositorio institucional en proceso de creación (RSA-Intern-Multiplexor-Presa)"
+  url: "https://github.com/RSA-PPP/ppp-2026-12-multiplexor-galgas-presa"
   rama_base: "main"
+
+topics:
+  - rsa-ppp
+  - ucuenca
+  - dam-monitoring
+  - strain-gauges
+  - esp32
+  - pic-microcontroller
+  - uart
+  - spi
+  - microsd
+  - c
 ---
 
 ---

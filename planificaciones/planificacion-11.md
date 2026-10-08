@@ -37,8 +37,22 @@ tecnologias:
   - "Herramientas de Análisis Forense y Validación: Python 3 (NumPy, SciPy, Matplotlib para co-localización), Editor Hexadecimal HxD, Osciloscopio Hantek"
 
 repositorio:
-  url: "No disponible / Repositorio institucional en proceso de creación"
+  url: "https://github.com/RSA-PPP/ppp-2026-11-shm-nodos-sensores"
   rama_base: "main"
+
+topics:
+  - rsa-ppp
+  - ucuenca
+  - shm
+  - dspic33
+  - adxl355
+  - microsd
+  - ping-pong-buffer
+  - rs485
+  - daisy-chain
+  - python
+  - mikroc
+  - c
 ---
 
 ---

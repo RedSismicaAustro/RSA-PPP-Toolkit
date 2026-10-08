@@ -60,10 +60,10 @@ RSA-PPP-Toolkit/
 │   └── plantilla_documento_puente.md # Guía para transiciones entre proyectos continuos
 │
 ├── docs/                      # Guías y políticas para tutores y pasantes
-│   └── .gitkeep
+│   └── taxonomia_topics.md    # Vocabulario controlado de topics para About en GitHub
 │
 ├── .agents/skills/            # Habilidades y agentes para formulación asistida de PPP
-│   └── .gitkeep
+│   └── desplegar_repositorio_ppp/ # Skill para crear repositorios PPP a partir de planificaciones
 │
 └── README.md                  # Este documento
 ```

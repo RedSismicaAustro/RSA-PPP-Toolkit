@@ -8,10 +8,10 @@ version: "1.0"
 fecha_creacion: "2026-09-28"
 fecha_actualizacion: "2026-09-28"
 
-pasante:
-  nombre: "Walter Calderón"
+practicante:
+  nombre: "Christopher Carchipulla"
   cedula: "N/D"
-  correo: "walter.calderon@ucuenca.edu.ec"
+  correo: "christopher.carchipulla@ucuenca.edu.ec"
   carrera: "Ingeniería en Telecomunicaciones"
   institucion: "Universidad de Cuenca"
 
@@ -38,8 +38,18 @@ tecnologias:
   - "Instrumental de Calibración: Multímetro digital de banco de 6.5 dígitos, caja de décadas de resistencias patrón (precisión 0.05%), micrómetro digital de precisión sobre banco de desplazamiento"
 
 repositorio:
-  url: "No disponible / Repositorio institucional en proceso de creación (RSA-Intern-DAQ-NI-Python)"
+  url: "https://github.com/RSA-PPP/ppp-2026-13-daq-16ch-presa-python"
   rama_base: "main"
+
+topics:
+  - rsa-ppp
+  - ucuenca
+  - dam-monitoring
+  - daq
+  - ni-usb-6210
+  - strain-gauges
+  - metrology
+  - python
 ---
 
 ---
