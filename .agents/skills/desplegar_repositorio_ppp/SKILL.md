@@ -150,6 +150,7 @@ El agente procede a escribir de forma autónoma en el directorio local `[RUTA_BA
    - Rellenar la ficha técnica con los datos del pasante, tutor, duración, código de proyecto y objetivos.
    - Inyectar el árbol de directorios con el nombre exacto del proyecto.
    - Si el proyecto tiene un predecesor, descomentar el aviso institucional de **Proyecto Precedente**.
+   - En la sección **Reglas de Trabajo y Control de Versiones (Punto 4: Control de Hitos por Git Tags)**, personalizar el comando de ejemplo copiando la descripción resumida de la Fase 1 del plan de trabajo (ej. `git tag -a v0.1.0 -m "Fase 1 completada: [Título o resumen Fase 1]"`).
 
 5. **Generación del Documento Puente (si aplica):**
    - Si `proyecto_precedente` está definido y no es `N/A`:

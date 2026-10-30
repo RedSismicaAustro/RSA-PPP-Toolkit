@@ -151,6 +151,17 @@ Para asegurar la calidad y trazabilidad del proyecto durante las prácticas:
    - `test: [incorporación o ejecución de pruebas unitarias/experimentales]`
    - `refactor: [optimización de código sin cambio de comportamiento]`
 3. **Integridad de Archivos:** No subas archivos temporales, binarios pesados no requeridos (`.hex` intermedios, archivos temporales de compilador `.dci`, `.lst`) ni datos masivos. Apóyate en el archivo `.gitignore`.
+4. **Control de Hitos por Git Tags:** Al culminar cada una de las 7 fases del cronograma, el estudiante creará una etiqueta fija (*tag*) para facilitar las revisiones:
+   ```bash
+   git tag -a v0.1.0 -m "Fase 1 completada: [Descripción resumida de la Fase 1]"
+   git push origin v0.1.0
+   ```
+   > 💡 **Nota para la personalización de la plantilla:** En la descripción de la Fase 1, la plantilla debe copiar la descripción resumida de la primera fase del plan de trabajo para hacer un ejemplo personalizado para el practicante (por ejemplo: `"Fase 1 completada: Retrabajo de zócalos y consumo caracterizado"`).
+
+   **Instrucciones de versionado para los tags:**
+   * Utilice el **segundo dígito** de la versión para cada fase (`v0.x.0`), por ejemplo `v0.1.0` para la Fase 1, `v0.2.0` para la Fase 2, etc.
+   * Utilice el **último dígito** por si necesita subir una corrección al tag (`v0.0.x`), por ejemplo `v0.1.1` si se requiere una corrección o ajuste tras la revisión de la Fase 1.
+   * El **primer dígito** se va a actualizar al final cuando termine la última fase del proyecto (`vx.0.0` o `v1.0.0`).
 
 ---
 
