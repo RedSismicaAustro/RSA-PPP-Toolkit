@@ -36,7 +36,7 @@ tecnologias:
   - "Diseño Electrónico: Altium Designer (Librerías de esquemáticos, PCB Layout, DRC, Generación de Gerbers/Drill)"
 
 repositorio:
-  url: "https://github.com/RedSismicaAustro/pasantias-chanlud-coordinometros"
+  url: 
   rama_base: "main"
 ---
 
