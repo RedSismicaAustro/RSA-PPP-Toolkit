@@ -36,7 +36,7 @@ tecnologias:
   - "Control de Versiones y Gestión de Librerías: Git, GitHub, librerías locales portables en `/libs` con direccionamiento relativo (${KIPRJMOD})"
 
 repositorio:
-  url: "https://github.com/RedSismicaAustro/RSA-Intern-SHM"
+  url: "https://github.com/RSA-PPP/ppp-2026-07-shm-altium-kicad"
   rama_base: "main"
 ---
 
@@ -86,7 +86,7 @@ Migrar dos proyectos electrónicos institucionales de monitoreo de salud estruct
   1. Instalar y parametrizar la suite KiCad versión 10 en la estación de trabajo.
   2. Crear un entorno virtual en Python 3 e instalar la herramienta de automatización CLI `jlc2kicadlib` para descarga directa de componentes desde la base de datos de LCSC.
   3. Instalar y configurar el complemento *Fabrication Toolkit* (JLCPCB Tools) a través del Gestor de Paquetes y Contenidos (PCM) de KiCad.
-  4. Clonar el repositorio [RSA-Intern-SHM](https://github.com/RedSismicaAustro/RSA-Intern-SHM), crear la rama de desarrollo y configurar el archivo `.gitignore` adaptado para excluir cachés y temporizadores de KiCad (`*-save.kicad_pcb`, `*.kicad_prl`).
+  4. Clonar el repositorio [ppp-2026-07-shm-altium-kicad](https://github.com/RSA-PPP/ppp-2026-07-shm-altium-kicad), crear la rama de desarrollo y configurar el archivo `.gitignore` adaptado para excluir cachés y temporizadores de KiCad (`*-save.kicad_pcb`, `*.kicad_prl`).
 * **Checkpoints medibles para revisión:**
   - [ ] **CP 1.1:** Entorno KiCad 10 y entorno virtual de Python con `jlc2kicadlib` verificados y operativos por consola.
   - [ ] **CP 1.2:** Plugin *Fabrication Toolkit* integrado en la barra de herramientas del editor de PCBs.
@@ -176,7 +176,7 @@ Migrar dos proyectos electrónicos institucionales de monitoreo de salud estruct
 * **Objetivo:** Auditar la equivalencia eléctrica entre los diseños originales y migrados, consolidar el repositorio y redactar la documentación técnica.
 * **Actividades técnicas:**
   1. Ejecutar una auditoría comparativa exhaustiva entre los esquemas originales de Altium y las versiones finales en KiCad 10 (continuidad netlist, asignación de pines y tolerancias).
-  2. Redactar el archivo `README.md` operativo en la raíz del repositorio [RSA-Intern-SHM](https://github.com/RedSismicaAustro/RSA-Intern-SHM) detallando:
+  2. Redactar el archivo `README.md` operativo en la raíz del repositorio [ppp-2026-07-shm-altium-kicad](https://github.com/RSA-PPP/ppp-2026-07-shm-altium-kicad) detallando:
      - Versión de KiCad requerida (v10).
      - Guía paso a paso de instalación del entorno virtual y uso de `jlc2kicadlib`.
      - Instrucciones de uso del plugin *Fabrication Toolkit* para regenerar paquetes PCBA con un solo clic.
@@ -210,7 +210,7 @@ El trabajo se ejecutó en **10.5 semanas** (del 20 de abril al 30 de junio de 20
 ## 5. Entregables y Criterios de Éxito de la Pasantía
 
 1. **Repositorio Autónomo y Portable en KiCad 10:**
-   * Proyectos 1 y 2 completos y funcionales en formato KiCad 10 alojados en: [RSA-Intern-SHM](https://github.com/RedSismicaAustro/RSA-Intern-SHM).
+   * Proyectos 1 y 2 completos y funcionales en formato KiCad 10 alojados en: [ppp-2026-07-shm-altium-kicad](https://github.com/RSA-PPP/ppp-2026-07-shm-altium-kicad).
    * Directorio `/libs` autónomo conteniendo símbolos (`.kicad_sym`), huellas (`.kicad_mod`) y modelos 3D (`.step`) con rutas relativas basadas en `${KIPRJMOD}`.
 2. **Paquetes de Fabricación Automatizada (Production Release):**
    * Carpetas de fabricación para ambos proyectos generadas con *Fabrication Toolkit* conteniendo Gerbers RS-274X, archivos de taladrado NC Drill, Lista de Materiales (`BOM.csv`) y archivo de colocación de componentes (`CPL.csv`).

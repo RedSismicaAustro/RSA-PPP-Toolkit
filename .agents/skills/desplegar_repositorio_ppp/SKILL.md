@@ -14,7 +14,7 @@ Esta habilidad automatiza y estandariza la creación e inicialización de un nue
 Antes de operar, define o verifica la ruta raíz de trabajo local para los repositorios de estudiantes. Si no se especifica otra ruta, utiliza el valor por defecto:
 
 ```text
-RUTA_BASE_PPP = "C:\Users\miltonrsa\Documents\git\ppp"
+RUTA_BASE_PPP = "C:\Users\miltonrsa\Documents\git\rsa-ppp"
 ORGANIZACION_GITHUB = "RSA-PPP"
 HOST_SSH_RSA = "git@github.com-rsa"
 ```
