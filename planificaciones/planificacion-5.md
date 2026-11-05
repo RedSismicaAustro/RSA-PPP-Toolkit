@@ -12,7 +12,7 @@ pasante:
   nombre: "Christian Daniel Loja Chalco"
   cedula: "N/D"
   correo: "christian.loja@ucuenca.edu.ec"
-  carrera: "Ingeniería en Telecomunicaciones / Electrónica"
+  carrera: "Ingeniería en Telecomunicaciones"
   institucion: "Universidad de Cuenca"
 
 tutoria:
@@ -39,8 +39,7 @@ tecnologias:
   - "Técnicas de Ruteo y Manufactura: Diseño multicapa/doble cara, planos de masa continuos (GND pour), apantallamiento EMI y generación de archivos Gerber RS-274X / NC Drill"
 
 repositorio:
-  url: "https://github.com/RedSismicaAustro/RSA-Intern-HW-Acelerografo_ESP32_Modular"
-  repositorio_smd: "https://github.com/RedSismicaAustro/RSA-Intern-HW-Acelerografo_ESP32_SMD"
+  url: "https://github.com/RSA-PPP/ppp-2025-05-acelerografo-esp32-eagle"
   rama_base: "main"
 ---
 
@@ -146,7 +145,7 @@ Diseñar y validar dos placas de circuito impreso (PCB) en Autodesk EAGLE para e
   1. Ejecutar el procesador CAM de EAGLE para exportar el paquete de producción en formato Gerber RS-274X y archivos de taladrado Excellon.
   2. Generar la lista de materiales consolidada (BOM) con especificación de conectores y módulos requeridos.
   3. Redactar el archivo `README.md` del repositorio con instrucciones de ensamble, diagrama esquemático en PDF y renderizado 3D.
-  4. Publicar los cambios en el repositorio oficial [RSA-Intern-HW-Acelerografo_ESP32_Modular](https://github.com/RedSismicaAustro/RSA-Intern-HW-Acelerografo_ESP32_Modular).
+  4. Publicar los cambios en el repositorio oficial [ppp-2025-05-acelerografo-esp32-eagle](https://github.com/RSA-PPP/ppp-2025-05-acelerografo-esp32-eagle).
 * **Checkpoints medibles para revisión:**
   - [ ] **CP 4.1:** Paquete de archivos Gerber y Drill generado y verificado en visor CAM.
   - [ ] **CP 4.2:** Repositorio GitHub de la versión modular actualizado con esquemáticos, BOM y documentación técnica.
@@ -215,7 +214,7 @@ Diseñar y validar dos placas de circuito impreso (PCB) en Autodesk EAGLE para e
   1. Generar los archivos Gerber RS-274X, archivos de taladrado Excellon y archivos de posición de componentes (*Centroid / Pick and Place*) para ensamblaje automatizado SMT.
   2. Generar el renderizado 3D de la placa para inspección visual de colisiones mecánicas.
   3. Consolidar la Lista de Materiales (BOM) final con códigos de fabricante y distribuidores.
-  4. Redactar el `README.md` exhaustivo en el repositorio oficial [RSA-Intern-HW-Acelerografo_ESP32_SMD](https://github.com/RedSismicaAustro/RSA-Intern-HW-Acelerografo_ESP32_SMD), detallando criterios de ruteo, desacoplamiento y notas de manufactura.
+  4. Redactar el `README.md` exhaustivo en el repositorio oficial [ppp-2025-05-acelerografo-esp32-eagle](https://github.com/RSA-PPP/ppp-2025-05-acelerografo-esp32-eagle), detallando criterios de ruteo, desacoplamiento y notas de manufactura.
   5. Revisión técnica con el tutor institucional y suscripción del formulario de evaluación F002.
 * **Checkpoints medibles para revisión:**
   - [ ] **CP 8.1:** Paquete completo de manufactura (Gerbers, Drill, BOM y Pick&Place) verificado en visor industrial.
@@ -242,12 +241,12 @@ El trabajo se ejecutó en un período de **3 semanas intensivas** (del 10 de feb
 
 1. **Diseño de PCB Modular en Autodesk EAGLE (Etapa 1):**
    * Archivo esquemático (`.sch`) y archivo de placa (`.brd`) en EAGLE que integra módulos comerciales (ESP32 DevKit, ADXL355, RTC DS3231, GPS, MicroSD y Buck DC-DC).
-   * Paquete de producción Gerber y Lista de Materiales (BOM) disponible en el repositorio: [RSA-Intern-HW-Acelerografo_ESP32_Modular](https://github.com/RedSismicaAustro/RSA-Intern-HW-Acelerografo_ESP32_Modular).
+   * Paquete de producción Gerber y Lista de Materiales (BOM) disponible en el repositorio: [ppp-2025-05-acelerografo-esp32-eagle](https://github.com/RSA-PPP/ppp-2025-05-acelerografo-esp32-eagle).
 2. **Diseño de PCB SMD de Alta Densidad en Autodesk EAGLE (Etapa 2):**
    * Archivo esquemático (`.sch`) y layout (`.brd`) en tecnología de montaje superficial (SMD), optimizado para bajo ruido analógico y dimensiones reducidas.
    * Planos de masa sólidos continuos en capas Top/Bottom con costura de vías (*via stitching*) para apantallamiento y disipación térmica.
    * Puntos de prueba (*test points*) y protecciones ESD integradas.
-   * Paquete completo de manufactura (Gerbers RS-274X, NC Drill, Centroid/Pick&Place y BOM industrial) alojado en: [RSA-Intern-HW-Acelerografo_ESP32_SMD](https://github.com/RedSismicaAustro/RSA-Intern-HW-Acelerografo_ESP32_SMD).
+   * Paquete completo de manufactura (Gerbers RS-274X, NC Drill, Centroid/Pick&Place y BOM industrial) alojado en: [ppp-2025-05-acelerografo-esp32-eagle](https://github.com/RSA-PPP/ppp-2025-05-acelerografo-esp32-eagle).
 3. **Documentación Técnica y Repositorios:**
    * Archivos `README.md` detallados en ambos repositorios con esquemas de conexionado, especificaciones de alimentación y pautas para futuros desarrolladores.
    * Modelos y vistas 3D de ensamble de las placas de circuito impreso.

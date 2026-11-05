@@ -40,7 +40,7 @@ tecnologias:
   - "Herramientas de Análisis y Validación: Python 3 (Spyder, NumPy, SciPy, Matplotlib), Editor Hexadecimal HxD, MQTT Explorer"
 
 repositorio:
-  url: "https://github.com/RedSismicaAustro/RSA-Intern-Acelerografo_ESP32"
+  url: "https://github.com/RSA-PPP/ppp-2024-04-acelerografo-esp32-firmware"
   rama_base: "main"
 ---
 
@@ -301,7 +301,7 @@ Diseñar, implementar y caracterizar el circuito electrónico y firmware modular
      - Documentación exhaustiva de las funciones modulares (`ADXL355`, `GPS`, `RTC`, `SD_mod`).
      - Diagrama esquemático de conexiones, flujograma de FreeRTOS y estructura de tramas binarias.
      - Manual de uso del script de análisis en Python y configuración del cliente MQTT.
-  3. Consolidar el repositorio en GitHub (`https://github.com/RedSismicaAustro/RSA-Intern-Acelerografo_ESP32`) con código fuente limpio, comentado y versionado.
+  3. Consolidar el repositorio en GitHub (`https://github.com/RSA-PPP/ppp-2024-04-acelerografo-esp32-firmware`) con código fuente limpio, comentado y versionado.
   4. Revisión técnica final con el tutor institucional y suscripción de actas de acreditación de 240 horas.
 * **Checkpoints medibles para revisión:**
   - [ ] **CP 12.1:** Sistema completo validado en prueba de estrés continua de 24 horas sin fallos ni desincronización.
@@ -349,6 +349,6 @@ El plan de trabajo global comprende **240 horas** distribuidas a lo largo de **1
    * Script para lectura y decodificación de tramas binarias de la MicroSD (`data0.bin`), verificación de tasa de 250 muestras/s y graficación interactiva de series temporales.
    * Script receptor con `paho-mqtt` para suscripción en tiempo real, guardado en CSV y análisis de latencia, tasa de pérdida y uso de ancho de banda.
 4. **Repositorio Institucional en GitHub:**
-   * Código fuente completo, librerías, configuraciones de PlatformIO y esquemas de conexión alojados en: [RSA-Intern-Acelerografo_ESP32](https://github.com/RedSismicaAustro/RSA-Intern-Acelerografo_ESP32).
+   * Código fuente completo, librerías, configuraciones de PlatformIO y esquemas de conexión alojados en: [ppp-2024-04-acelerografo-esp32-firmware](https://github.com/RSA-PPP/ppp-2024-04-acelerografo-esp32-firmware).
 5. **Documentación Técnica y Guía de Usuario Formal:**
    * Documento institucional formal de 32 páginas (`RSA_User_Guide.pdf` / `Informe 4.pdf`) que contiene manuales de instalación de software, descripción detallada del código, diagramas de flujo, esquemas de conexión y validaciones experimentales.
