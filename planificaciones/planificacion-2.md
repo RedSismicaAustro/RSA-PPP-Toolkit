@@ -37,8 +37,8 @@ tecnologias:
   - "Técnicas de Ruteo PCB: Planos de tierra (Copper Pour Top/Bottom) vs. Ruteo sin plano de masa, terminación balanceada de línea (120 Ω)"
 
 repositorio:
-  url: "No disponible / Trabajo realizado de forma local sin repositorio remoto"
-  rama_base: "N/A"
+  url: "https://github.com/RSA-PPP/ppp-2024-02-shm-pcb-altium"
+  rama_base: "main"
 ---
 
 ---
